@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: vicinitastx.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug  3 13:16:50 2026 GMT
+  hsts: null
+domains:
+- domain: vicinitastx.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
